@@ -3,9 +3,11 @@
 Console.Write("Введите число 1: ");
 string Num1 = Console.ReadLine();
 int Number1 = Convert.ToInt32(Num1);
+
 Console.Write("Введите число 2: ");
 string Num2 = Console.ReadLine();
 int Number2 = Convert.ToInt32(Num2);
+
 if (Number1 > Number2)
 {
   System.Console.WriteLine($"Первое число {Num1} больше второго числа {Num2}");
