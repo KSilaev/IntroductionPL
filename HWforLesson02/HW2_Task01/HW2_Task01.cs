@@ -14,13 +14,13 @@ int InputIntNumber (string Mes)
 }
 
 // Вычисление второй цифры введенного числа
-int Rank = 0;
+int Rank2 = 0;
 int Num = InputIntNumber("Введите положительное трехзначное число");
 
 // Вторую цифру ищем только в трехзначных числах, иначе ничего не делаем
 if (Num != -1)
 {
   Num = Num / 10;
-  Rank = Num % 10;
-  Console.WriteLine($"Вторая цифра введенного числа: {Rank}");
+  Rank2 = Num % 10;
+  Console.WriteLine($"Вторая цифра введенного числа: {Rank2}");
 }
