@@ -27,4 +27,7 @@ int ToRank(int X, int Y)
 
 int IntNumber = InputIntNumber("Введите целое положительное число");
 int Rank = InputIntNumber("Введите целое положительное число - степень, в которую будем возводить");
-System.Console.WriteLine($"Результатом возведения числа {IntNumber} в степень {Rank} будет {ToRank(IntNumber,Rank)}");
+if (IntNumber != -1 && Rank != -1)
+{
+  System.Console.WriteLine($"Результатом возведения числа {IntNumber} в степень {Rank} будет {ToRank(IntNumber, Rank)}");
+}
