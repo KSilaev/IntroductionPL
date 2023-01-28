@@ -33,7 +33,7 @@ void PrintArr(int[] Arr)
   {
     System.Console.WriteLine($"Элемент массива {i} равен {Arr[i]}");
   }
-  return;
+//  return;
 }
 
 int ArrCount = InputIntNumber("Введите количество элементов массива");
